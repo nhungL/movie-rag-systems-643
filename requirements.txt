@@ -1,0 +1,29 @@
+numpy<2.0
+rank_bm25
+sentence-transformers==2.2.2
+transformers==4.28.1
+huggingface-hub==0.14.1
+faiss-cpu
+nltk
+stanza
+typing_extensions==4.5.0
+
+
+# #!/bin/bash
+# # Create virtual environment in /mnt
+# python3 -m venv /mnt/venv
+# source /mnt/venv/bin/activate
+
+# # Download requirements
+# aws s3 cp s3://nina-rag-project/requirements.txt /tmp/requirements.txt
+# pip install --upgrade pip
+# pip install -r /tmp/requirements.txt --no-cache-dir
+os.environ["HF_HOME"] = "/mnt/hf_cache"
+os.environ["TRANSFORMERS_CACHE"] = "/mnt/hf_cache"
+os.environ["SENTENCE_TRANSFORMERS_HOME"] = "/mnt/hf_cache"
+.config("spark.executorEnv.HF_HOME", "/mnt/hf_cache") \
+.config("spark.executorEnv.TRANSFORMERS_CACHE", "/mnt/hf_cache") \
+.config("spark.executorEnv.SENTENCE_TRANSFORMERS_HOME", "/mnt/hf_cache") \
+.config("spark.yarn.appMasterEnv.HF_HOME", "/mnt/hf_cache") \
+.config("spark.yarn.appMasterEnv.TRANSFORMERS_CACHE", "/mnt/hf_cache") \
+.config("spark.yarn.appMasterEnv.SENTENCE_TRANSFORMERS_HOME", "/mnt/hf_cache") \

@@ -1,0 +1,12 @@
+You are an expert in movies.
+Task: Explain in **one detailed sentence** why this movie is a good recommendation for the question: Suggest a scifi movie, in which aliens come to Earth
+
+Context: 
+Movie: Aliens_1986
+Movie: Aliens Origin: American Genre: science fiction Director: James Cameron Cast: Sigourney Weaver, Michael Biehn, Lance Henriksen, Carrie Henn, Bill Paxton, Paul Reiser, Jenette Goldstein Plot: Ellen Ripley has been in stasis in a shuttle for 57 years. She is rescued and debriefed by her employer
+
+
+Prompt token length: 147
+
+User query: Suggest a scifi movie, in which aliens come to Earth
+Movie bot: Aliens is a 1986 sci-fi film directed by James Cameron and starring Sigourney Weaver, Michael Biehn, Lance Henriksen, Carrie henn and Bill Paxton.

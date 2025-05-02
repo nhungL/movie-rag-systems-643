@@ -1,0 +1,1 @@
+Saved embedded data to: s3a://nina-rag-project/processed_data/movie_embeddings

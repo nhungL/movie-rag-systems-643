@@ -1,0 +1,3 @@
+Total number of rows: 34886
+Cleaned count: 32438 rows left (keep 92.98%)
+Saved cleaned texts to: s3://nina-rag-project/processed_data/movie_cleanedtexts

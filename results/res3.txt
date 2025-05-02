@@ -1,0 +1,44 @@
+Downloading https://raw.githubusercontent.com/stanfordnlp/stanza-resources/main/resources_1.10.0.json:   0%|          | 0.00/52.7k [00:00<?, ?B/s]Downloading https://raw.githubusercontent.com/stanfordnlp/stanza-resources/main/resources_1.10.0.json: 426kB [00:00, 55.4MB/s]                    
+2025-04-30 23:28:42 INFO: Downloaded file to /mnt/stanza_resources/resources.json
+2025-04-30 23:28:42 INFO: Downloading default packages for language: en (English) ...
+2025-04-30 23:28:43 INFO: File exists: /mnt/stanza_resources/en/default.zip
+2025-04-30 23:28:47 INFO: Finished downloading models and saved to /mnt/stanza_resources
+2025-04-30 23:28:47 INFO: Checking for updates to resources.json in case models have been updated.  Note: this behavior can be turned off with download_method=None or download_method=DownloadMethod.REUSE_RESOURCES
+Downloading https://raw.githubusercontent.com/stanfordnlp/stanza-resources/main/resources_1.10.0.json:   0%|          | 0.00/52.7k [00:00<?, ?B/s]Downloading https://raw.githubusercontent.com/stanfordnlp/stanza-resources/main/resources_1.10.0.json: 426kB [00:00, 51.1MB/s]                    
+2025-04-30 23:28:47 INFO: Downloaded file to /mnt/stanza_resources/resources.json
+2025-04-30 23:28:47 WARNING: Language en package default expects mwt, which has been added
+2025-04-30 23:28:48 INFO: Loading these models for language: en (English):
+=================================
+| Processor | Package           |
+---------------------------------
+| tokenize  | combined          |
+| mwt       | combined          |
+| pos       | combined_charlm   |
+| lemma     | combined_nocharlm |
+=================================
+
+2025-04-30 23:28:48 INFO: Using device: cpu
+2025-04-30 23:28:48 INFO: Loading: tokenize
+/usr/local/lib64/python3.9/site-packages/torch/_utils.py:831: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+2025-04-30 23:28:48 INFO: Loading: mwt
+2025-04-30 23:28:48 INFO: Loading: pos
+2025-04-30 23:28:51 INFO: Loading: lemma
+2025-04-30 23:28:52 INFO: Done loading processors!
+Detected genres from query: ['science fiction']
+Extracted keywords from query: ['scifi', 'alien', 'earth']
+**Aliens_1986**
+Movie: Aliens Origin: American Genre: science fiction Director: James Cameron Cast: Sigourney Weaver, Michael Biehn, Lance Henriksen, Carrie Henn, Bill Paxton, Paul Reiser, Jenette Goldstein Plot: Ellen Ripley has been in stasis in a shuttle for 57 years. She is rescued and debriefed by her employer...
+
+**Sphere_1998**
+Movie: Sphere Origin: American Genre: science fiction Director: Barry Levinson Cast: Dustin Hoffman, Sharon Stone, Samuel L. Jackson, Liev Schreiber Plot: An alien spacecraft is discovered on the floor of the Pacific Ocean, estimated to have been there for nearly 300 years. A team of experts, includ...
+
+**W_1974**
+Movie: W Origin: American Genre: unknown Director: Richard Quine Cast: Twiggy, John Vernon, Dirk Benedict Plot: Within 24 hours, three near-fatal accidents have occurred. At the scene of each, the letter "W" is scrawled over the injured person. Katie Lewis (Twiggy) and her husband Ben (Michael Witne...
+
+**Alien_1979**
+Movie: Alien Origin: American Genre: unknown Director: Ridley Scott Cast: Sigourney Weaver, Tom Skerritt, Harry Dean Stanton, Veronica Cartwright, John Hurt, Ian Holm, Yaphet Kotto Plot: The commercial space tug Nostromo is on a return trip to Earth with a seven-member crew in stasis: Captain Dallas...
+
+**Om_1995**
+Movie: Om Origin: Kannada Genre: unknown Director: Upendra Cast: Shivarajkumar, Prema, Srishanti, Sadhu Kokila, Harish Acharya, Kote Prabhakar Plot: The movie begins with a reporter writing articles about underworld dons and the reasons why people enter the underworld and practice rowdyism. The movi...
+
