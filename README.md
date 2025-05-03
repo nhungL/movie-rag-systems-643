@@ -4,6 +4,7 @@
   - EMR version: `emr-7.8.0`  
   - Installed applications: Hadoop 3.4.1, Hive 3.1.3, JupyterEnterpriseGateway 2.6.0, Livy 0.8.0, Spark 3.5.4  
   - Cluster configuration: 1 primary node, 3 core nodes, 0 task nodes
+  - ⚠️ **Important:** Add the bootstrap script `bootstrap.sh` when creating the cluster to install required dependencies which are listed in `requirements.txt`.
 
 - **S3 Storage**  
   - Full dataset: `s3://nina-rag-project/wiki_movie_plots_deduped.csv`  
